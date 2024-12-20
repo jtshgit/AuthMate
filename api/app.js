@@ -14,7 +14,6 @@ const { Strategy: GoogleStrategy } = require('passport-google-oauth20');
 const loginController = require('./controllers/registration/login');
 const signinController = require('./controllers/registration/signin');
 const resetPassController = require('./controllers/registration/resetPass');
-const authRoutes = require('./routes/auth');
 const axios = require('axios');
 
 // Initialize the app
