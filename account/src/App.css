@@ -1,0 +1,351 @@
+body {
+    background: #F0F8FF;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .08);
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e5e9f2;
+    border-radius: .2rem;
+}
+
+.card-header:first-child {
+    border-radius: calc(.2rem - 1px) calc(.2rem - 1px) 0 0;
+}
+
+.card-header {
+    border-bottom-width: 1px;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e9f2;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginSign {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6edff;
+    column-gap: 30px;
+}
+
+.loginSign header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+.loginSign .form {
+    position: absolute;
+    max-width: 430px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.loginSign .loginSign header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+.loginSign form {
+    margin-top: 30px;
+}
+
+.loginSign .form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.loginSign .checkboxdiv {
+    margin: 10px 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: 14px;
+    padding: 0;
+}
+
+.loginSign .checkboxdiv input {
+    padding: 10px;
+}
+
+.loginSign .checkboxdiv label {
+    height: 10px;
+    padding: 0;
+}
+
+.loginSign .field input,
+.loginSign .field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.loginSign .field input {
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+
+.loginSign .field input:focus {
+    border-bottom-width: 2px;
+}
+
+.loginSign .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.loginSign .field button {
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.loginSign .field button:hover {
+    background-color: #016dcb;
+}
+
+.loginSign .form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loginSign .form-link span,
+.loginSign .form-link a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+
+.loginSign .form a {
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.loginSign .form-content a:hover {
+    text-decoration: underline;
+}
+
+.loginSign .line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.loginSign .line::before {
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+
+.loginSign .media-options button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.loginSign a.facebook {
+    color: #fff;
+    background-color: #4267b2;
+}
+
+.loginSign a.facebook .facebook-icon {
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.loginSign .facebook-icon,
+.loginSign img.google-img {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.loginSign img.google-img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+.loginSign a.google {
+    border: 1px solid #CACACA;
+}
+
+.loginSign a.google span {
+    font-weight: 500;
+    opacity: 0.6;
+    color: #232836;
+}
+
+@media screen and (max-width: 400px) {
+    .loginSign .form {
+        padding: 20px 10px;
+    }
+
+}
+
+.profile {
+    width: 200px;
+    max-height: 200px;
+}
+
+.file-upload {
+    display: none;
+}
+
+.circle {
+    border-radius: 100% !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    top: 72px;
+}
+
+.profile {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-image {
+    position: relative;
+    top: -20px;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.uploadimg {
+    width: 35px;
+    padding: 4px;
+    background-color: #d0dbe4;
+    border-radius: 50%;
+
+}
+
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}
+
+.button-3 {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-3:hover {
+    background-color: #2c974b;
+}
+
+.button-3:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-3:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-3:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
